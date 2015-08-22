@@ -1,0 +1,15 @@
+{
+  "name": "movies-you-like-ang",
+  "version": "0.0.0",
+  "authors": [
+    "Jeff Richardson <jeff@masterpieceinteractive.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
