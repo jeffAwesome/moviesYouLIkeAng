@@ -1,4 +1,5 @@
-<form id="movie-search" class="movie-search" action="related.html?search='value'">
-  <input ng-model="movie" type="search" placeholder="Type the name of a movie" name="search">
+<h2>The movie is {{movie.title}}</h2>
+ <form id="movie-search" class="movie-search">
+  <input ng-model="movie.title" type="search" placeholder="Type the name of a movie" name="search">
   <input type="submit" value="submit">
 </form>
