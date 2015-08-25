@@ -12,6 +12,11 @@
         url: "/",
         controller: 'homeController',
         templateUrl: "src/home/home.html"
+      })
+      .state('movies', {
+        url: "/movies/",
+        controller: "moviesController",
+        templateUrl: "src/movies/movies.html"
       });
   });
   
